@@ -10,7 +10,7 @@ node {
 
    stage('pre-test') {
      print "hello world"
-     sh "cat ./git/commit-id"
+    
    }
    
    stage('test') {
